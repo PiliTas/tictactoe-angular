@@ -1,14 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CellgrigComponent } from './pages/cellgrig/cellgrig.component';
+import { CellgridComponent } from './pages/cellgrid/cellgrid.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CellgrigComponent
+    CellgridComponent
   ],
   imports: [
     BrowserModule,
