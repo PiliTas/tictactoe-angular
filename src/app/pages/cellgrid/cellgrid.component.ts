@@ -1,15 +1,17 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cellgrid',
   templateUrl: './cellgrid.component.html',
   styleUrls: ['./cellgrid.component.scss']
 })
-export class CellgridComponent implements OnInit {
+export class CellgridComponent {
 
-  constructor() { }
+  //  rando;
+  // constructor() {
+  //   setInterval(()=>this.rando = Math.random(),500)
+  // }
 
-  ngOnInit(): void {
-  }
+  @Input() value: 'X' | 'O'
 
 }
